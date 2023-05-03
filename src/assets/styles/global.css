@@ -1,23 +1,20 @@
 body {
     display: grid;
-    grid-template-columns: 12% 88%;
+    grid-template-columns: 15% 85%;
     height: 100vh;
+}
+
+a,
+p,
+h4 {
+    color: aliceblue;
 }
 
 main {
     background: linear-gradient(to bottom, var(--corPrimary-1), var(--corPrimary-2), var(--corPrimary-2));
 }
 
-aside {
-    background-color: var(--corPrimary-2);
-}
-aside .box-nav{
 
-}
-aside img {
-    width: 20px;
-    height: 20px;
-}
-aside a{
-    font-size: 12px;
+main, aside{
+    padding: 16px 0px;
 }
