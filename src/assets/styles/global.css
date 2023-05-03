@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-columns: 12% 88%;
+    height: 100vh;
+}
+
+main {
+    background: linear-gradient(to bottom, var(--corPrimary-1), var(--corPrimary-2), var(--corPrimary-2));
+}
+
+aside {
+    background-color: var(--corPrimary-2);
+}
+aside .box-nav{
+
+}
+aside img {
+    width: 20px;
+    height: 20px;
+}
+aside a{
+    font-size: 12px;
+}
