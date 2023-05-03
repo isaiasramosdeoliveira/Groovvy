@@ -52,6 +52,15 @@ aside .box-img {
     padding-left: 34px;
 }
 
+aside .box-img:hover a{
+    transition: 200ms all;
+    color:var(--corSecond);
+}
+aside .box-img:hover{
+    transition: 200ms all;
+    border-right: 2px solid var(--corSecond);
+}
+
 aside .box-nav img {
     width: 20px;
     height: 20px;

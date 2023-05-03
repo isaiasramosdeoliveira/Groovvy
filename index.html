@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="src/assets/styles/reset.css" />
     <link rel="stylesheet" href="src/assets/styles/grid.css" />
     <link rel="stylesheet" href="src/assets/styles/global.css" />
-    <link rel="stylesheet" href="src/assets/styles/aside.css">
-    <link rel="stylesheet" href="src/assets/styles/container.css">
+    <link rel="stylesheet" href="src/assets/styles/aside.css" />
+    <link rel="stylesheet" href="src/assets/styles/container.css" />
   </head>
   <body>
-    <aside class="container">
+    <aside class="container container-aside">
       <span class="soon">
         <img class="" src="src/assets/svgs/logo.svg" alt="logo do site" />
         <p class="soon-mark">Groovvy</p>
@@ -87,24 +87,46 @@
       </div>
       <div class="device">
         <div class="device-title">
-            <img class="device-img" src="" alt="">
-            <p class="device-describe">Google Homepod</p>
+          <img class="device-img" src="" alt="" />
+          <p class="device-describe">Google Homepod</p>
         </div>
-        <span class="device-playing">
-            Playing on Device
-        </span>
+        <span class="device-playing"> Playing on Device </span>
       </div>
     </aside>
-    <main class="container">
-        <header class="header">
-
-        </header>
-        <section class="box-disc">
-
-        </section>
-        <section>
-
-        </section>
+    <main class="container container-main">
+      <header class="header">
+        <nav class=" nav nav-menu">
+          <div class="nav-menu-links">
+            <a href="#" class="nav-links-link">
+              music
+            </a>
+            <a href="#" class="nav-links-link">
+              podcast
+            </a>
+            <a href="#" class="nav-links-link">
+              live
+            </a>
+          </div>
+          <div class="nav-filter">
+            <img class="nav-filter-img" src="src/assets/svgs/search.svg" alt="ícone de busca">
+            <input class="nav-filter-search" type="text" name="search" id="search" placeholder="Type here to search">
+          </div>
+        </nav>
+        <nav class="nav nav-settings">
+          <picture class="nav-setting-imgs">
+            <img class="nav-setting-img" src="src/assets/svgs/notification.svg" alt="ícone de notificações">
+            <img class="nav-setting-img" src="src/assets/svgs/settings.svg" alt="ícone de configurações">
+          </picture>
+          <div class="nav-settings-user">
+            <div class="nav-user-imgs">
+              <img class="nav-user-img" src="#" alt="foto de perfil">
+            </div>
+            <p class="nav-user-describe">Dave Cooper</p>
+          </div>
+        </nav>
+      </header>
+      <section class="box-disc"></section>
+      <section></section>
     </main>
     <script src="src/assets/js/index.js"></script>
   </body>

@@ -1,1 +1,87 @@
+.container-main {
+    padding: 20px 32px;
+}
 
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header .nav {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+}
+
+
+.container .header .nav-menu {
+    justify-content: space-between;
+}
+
+.container .header .nav-menu .nav-menu-links, .nav-filter {
+    display: flex;
+    justify-content: space-around;
+}
+.container .header .nav-menu .nav-menu-links{
+    width: 180px;
+}
+.container .header .nav-menu .nav-menu-links .nav-links-link{
+    color: var(--titles);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+.container .header .nav-menu .nav-menu-links .nav-links-link:hover{
+    transition: 200ms all;
+    color: var(--corSecond);
+}
+.container .header .nav-menu .nav-filter{
+    background-color: var(--corPrimary-3);
+    padding: 8px 12px;
+    gap:8px;
+    border: 1px solid var(--corPrimary-4);
+    border-radius: 8px;
+}
+.container .header .nav-menu .nav-filter .nav-filter-search{
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+    color: aliceblue;
+    outline: none;
+}
+
+.container .header .nav-settings {
+    gap: 20px;
+    justify-content: right;
+}
+
+.container .header .nav-settings .nav-settings-user, .nav-setting-imgs{
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .header .nav-settings .nav-settings-user{
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: var(--corPrimary-3);
+}
+.container .header .nav-settings .nav-settings-user .nav-user-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corPrimary-4);
+    padding: 6px 10px;
+    height: 50px;
+    margin: -8px -12px ;
+    border-radius: 4px;
+}
+.container .header .nav-settings .nav-settings-user .nav-user-imgs .nav-user-img{
+    background-color: beige;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 2px;
+}
