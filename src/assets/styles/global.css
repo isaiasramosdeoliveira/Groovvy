@@ -1,19 +1,16 @@
-body {
-    display: grid;
-    grid-template-columns: 15% 85%;
-    height: 100vh;
-}
-
 a,
 p,
-h4 {
+h4,
+h5 {
     color: aliceblue;
 }
-
 main {
     background: linear-gradient(to bottom, var(--corPrimary-1), var(--corPrimary-2), var(--corPrimary-2));
 }
 
+button{
+    border: none;
+}
 
 main, aside{
     padding: 16px 0px;

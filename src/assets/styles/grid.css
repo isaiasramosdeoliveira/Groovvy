@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    height: 100vh;
+}
+
+.container .box-controllers {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.container .box-controllers .box-albums {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.container .box-controllers .box-albums .box-album-artists {
+    grid-area: 1/1/2/4;
+}
+
+.container .box-controllers .box-albums .box-album-genres {
+    grid-area: 2/1/4/2;
+}
+
+.container .box-controllers .box-albums .box-album-charts {
+    grid-area: 2/2/4/4;
+}

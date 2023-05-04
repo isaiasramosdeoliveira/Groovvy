@@ -2,6 +2,10 @@
     padding: 20px 32px;
 }
 
+.container-main .box {
+    padding: 8px 12px;
+}
+
 .container .header {
     display: flex;
     justify-content: space-between;
@@ -15,36 +19,41 @@
     height: 50px;
 }
 
-
 .container .header .nav-menu {
     justify-content: space-between;
 }
 
-.container .header .nav-menu .nav-menu-links, .nav-filter {
+.container .header .nav-menu .nav-menu-links,
+.nav-filter {
     display: flex;
     justify-content: space-around;
 }
-.container .header .nav-menu .nav-menu-links{
+
+.container .header .nav-menu .nav-menu-links {
     width: 180px;
 }
-.container .header .nav-menu .nav-menu-links .nav-links-link{
+
+.container .header .nav-menu .nav-menu-links .nav-links-link {
     color: var(--titles);
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
 }
-.container .header .nav-menu .nav-menu-links .nav-links-link:hover{
+
+.container .header .nav-menu .nav-menu-links .nav-links-link:hover {
     transition: 200ms all;
     color: var(--corSecond);
 }
-.container .header .nav-menu .nav-filter{
+
+.container .header .nav-menu .nav-filter {
     background-color: var(--corPrimary-3);
     padding: 8px 12px;
-    gap:8px;
+    gap: 8px;
     border: 1px solid var(--corPrimary-4);
     border-radius: 8px;
 }
-.container .header .nav-menu .nav-filter .nav-filter-search{
+
+.container .header .nav-menu .nav-filter .nav-filter-search {
     background-color: transparent;
     border: none;
     padding: 4px;
@@ -57,31 +66,138 @@
     justify-content: right;
 }
 
-.container .header .nav-settings .nav-settings-user, .nav-setting-imgs{
-    gap:20px;
+.container .header .nav-settings .nav-settings-user,
+.nav-setting-imgs {
+    gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container .header .nav-settings .nav-settings-user{
+.container .header .nav-settings .nav-settings-user {
     padding: 8px 12px;
     border-radius: 4px;
     background-color: var(--corPrimary-3);
 }
-.container .header .nav-settings .nav-settings-user .nav-user-imgs{
+
+.container .header .nav-settings .nav-settings-user .nav-user-imgs {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--corPrimary-4);
     padding: 6px 10px;
     height: 50px;
-    margin: -8px -12px ;
+    margin: -8px -12px;
     border-radius: 4px;
 }
-.container .header .nav-settings .nav-settings-user .nav-user-imgs .nav-user-img{
+
+.container .header .nav-settings .nav-settings-user .nav-user-imgs .nav-user-img {
     background-color: beige;
     max-width: 30px;
     max-height: 30px;
     border-radius: 2px;
 }
+
+
+.container .box-banner {
+    height: 400px;
+    display: flex;
+    row-gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .box-banner .banner-describe .banner-describe-title {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.container .box-banner .banner-nav-links,
+.container .box-banner .banner-describe {
+    margin-left: 22px;
+}
+.container .box-banner .banner-describe h4{
+    margin-left: -22px;
+    margin-bottom: 22px;
+}
+
+.container .box-banner .banner-describe .banner-describe-artist{
+    display: flex;
+    gap: 20px;
+}
+.container .box-banner .banner-describe .banner-describe-artist .banner-describe-mark{
+    color: var(--titles);
+}
+
+.container .box-banner .banner-nav .banner-nav-links{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .box-banner .banner-nav .banner-nav-links .banner-links-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 100px;
+    font-size: 14px;
+}
+.container .box-banner .banner-nav .banner-nav-links .banner-links-play{
+    background-color: var(--corSecond);
+    padding: 12px 20px;
+}
+.container .box-banner .banner-nav .banner-nav-links .banner-links-favourite{
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+}
+
+.container .box-controllers .box-albums .box-album,
+.container .box-controllers .box-player {
+    background-color: var(--corPrimary-3);
+    border-radius: 4px;
+    padding: 14px;
+    margin: 10px;
+}
+
+.container .box-controllers .box-player-describe, .box-album-describe{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+}
+
+.box-album-describe .describe-all{
+    color: var(--titles);
+}
+
+.box-album-artists .box-algum-playlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.box-album-artists .box-algum-playlist .playlist-music{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 120px;
+    margin: 22px 0px;
+}
+
+.box-algum-playlist .playlist-music .music-img{
+    max-width: 80px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    color: antiquewhite;
+    margin-bottom: 6px;
+}
+.box-algum-playlist .playlist-music .music-describe{
+    font-size: 12px;
+    color: var(--titles);
+}
+

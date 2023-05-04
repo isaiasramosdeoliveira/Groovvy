@@ -9,13 +9,13 @@ aside .soon {
     justify-content: center;
     align-items: center;
     gap: 14px;
+    margin-top: -14px;
 }
 
 aside .soon .soon-mark {
     font-weight: 600;
     font-size: 18px;
 }
-
 
 aside,
 aside .box-nav {
@@ -27,7 +27,7 @@ aside .box-nav {
 aside .box-nav {
     justify-content: center;
     width: 100%;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 aside .box-nav .box-nav-title {
@@ -41,7 +41,7 @@ aside .box-nav .box-nav-title {
 aside .box-links {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
     margin: auto;
     width: 100%;
 }
