@@ -242,13 +242,16 @@
 .box-album-genres .box-album-playlist .playlist-music:nth-child(4) {
     width: 80px;
 }
-
+.box-album-charts{
+    width: 400px;
+}
 .box-album-charts .box-album-playlist {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100%;
-    padding: 18px 0px;
+    gap: 16px;
+    height: 95%;
+    padding: 16px 0px;
 }
 
 .box-album-charts .box-album-playlist .playlist-music {
