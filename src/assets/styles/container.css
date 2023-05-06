@@ -116,27 +116,29 @@
 .container .box-banner .banner-describe {
     margin-left: 22px;
 }
-.container .box-banner .banner-describe h4{
+
+.container .box-banner .banner-describe h4 {
     margin-left: -22px;
     margin-bottom: 22px;
 }
 
-.container .box-banner .banner-describe .banner-describe-artist{
+.container .box-banner .banner-describe .banner-describe-artist {
     display: flex;
     gap: 20px;
 }
-.container .box-banner .banner-describe .banner-describe-artist .banner-describe-mark{
+
+.container .box-banner .banner-describe .banner-describe-artist .banner-describe-mark {
     color: var(--titles);
 }
 
-.container .box-banner .banner-nav .banner-nav-links{
+.container .box-banner .banner-nav .banner-nav-links {
     width: 200px;
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.container .box-banner .banner-nav .banner-nav-links .banner-links-link{
+.container .box-banner .banner-nav .banner-nav-links .banner-links-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,11 +146,13 @@
     border-radius: 100px;
     font-size: 14px;
 }
-.container .box-banner .banner-nav .banner-nav-links .banner-links-play{
+
+.container .box-banner .banner-nav .banner-nav-links .banner-links-play {
     background-color: var(--corSecond);
     padding: 12px 20px;
 }
-.container .box-banner .banner-nav .banner-nav-links .banner-links-favourite{
+
+.container .box-banner .banner-nav .banner-nav-links .banner-links-favourite {
     background-color: transparent;
     border: 2px solid whitesmoke;
 }
@@ -161,24 +165,26 @@
     margin: 10px;
 }
 
-.container .box-controllers .box-player-describe, .box-album-describe{
+.container .box-controllers .box-player-describe,
+.box-album-describe {
     display: flex;
     justify-content: space-between;
     width: 100%;
     font-size: 14px;
 }
 
-.box-album-describe .describe-all{
+.box-album-describe .describe-all {
     color: var(--titles);
 }
 
-.box-album-artists .box-algum-playlist{
+.box-album-artists .box-album-playlist {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 12px;
 }
-.box-album-artists .box-algum-playlist .playlist-music{
+
+.box-album-artists .box-album-playlist .playlist-music {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,15 +194,49 @@
     margin: 22px 0px;
 }
 
-.box-algum-playlist .playlist-music .music-img{
+.box-album-playlist .playlist-music .music-img {
     max-width: 80px;
     height: 65px;
     border-radius: 4px;
-    background-color: antiquewhite;
-    color: antiquewhite;
+    background-color: var(--corPrimary-4);
+    color: var(--corPrimary-4);
     margin-bottom: 6px;
 }
-.box-algum-playlist .playlist-music .music-describe{
+
+.box-album-playlist .playlist-music .music-describe {
     font-size: 12px;
     color: var(--titles);
+}
+
+.box-album-genres .box-album-playlist {
+    min-width: 226px;
+}
+
+.box-album-genres .box-album-playlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.box-album-genres .box-album-playlist .playlist-music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corPrimary-4);
+    padding: 20px;
+    width: 106px;
+    height: 60px;
+    border-radius: 12px;
+    flex-grow: 1;
+}
+
+.box-album-genres .box-album-playlist .playlist-music:nth-child(3) {
+    width: 126px;
+}
+
+.box-album-genres .box-album-playlist .playlist-music:nth-child(4) {
+    width: 80px;
 }
