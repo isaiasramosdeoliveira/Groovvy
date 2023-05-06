@@ -176,7 +176,9 @@
 .box-album-describe .describe-all {
     color: var(--titles);
 }
-
+.box-album-artists{
+    background-color: red;
+}
 .box-album-artists .box-album-playlist {
     display: flex;
     justify-content: center;
@@ -303,4 +305,97 @@
     justify-content: center;
     align-items: center;
     background-color: transparent;
+}
+
+.box-player{
+    position: relative;
+    width: 320px;
+}
+.box-player .box-player-music{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 26px 0px;
+    height: 95%;
+}
+.box-player .box-player-music .player-describes{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    min-height: 65%;
+}
+.box-player .box-player-music .player-describes .player-img{
+    width: 160px;
+    height: 100px;
+    background-color: var(--corPrimary-4);
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.box-player .box-player-music .player-describes .player-title{
+    font-size: 26px;
+}
+.box-player .box-player-music .player-describes .player-date, .player-controllers-time{
+    font-size: 10px;
+    color: var(--titles);
+}
+.box-player .player-describes .player-controllers-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+}
+.box-player .player-describes .player-controllers-time .controller-progress{
+    padding: 1px;
+    width: 136px;
+    margin: 0px 18px;
+    background-color: var(--titles);
+}
+.box-player .box-player-music .player-controllers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corSecond);
+    position: absolute;
+    border-radius: 4px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 128px;
+}
+.box-player .box-player-music .player-controllers .controllers-btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 38px;
+}
+.box-player .box-player-music .player-controllers .controllers-btns .btn{
+    background-color: transparent;
+}
+.box-player .box-player-music .player-controllers .controllers-btns .btn-img{
+    width: 20px;
+    height: 20px;
+}
+.box-player .box-player-music .player-controllers .controllers-btns .btn:nth-child(3) .btn-img{
+    width: 46px;
+    height: 46px;
+}
+.box-player .box-player-music .player-controllers .controller-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 46px;
+    height: 46px;
+    font-weight: 600;
+}
+.box-player .box-player-music .player-controllers .controller-all .all-icon{
+    width: 22px;
+    height: 18px;
+    margin-bottom: -4px;
 }
