@@ -240,3 +240,67 @@
 .box-album-genres .box-album-playlist .playlist-music:nth-child(4) {
     width: 80px;
 }
+
+.box-album-charts .box-album-playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding: 18px 0px;
+}
+
+.box-album-charts .box-album-playlist .playlist-music {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-album-charts .music-describes,
+.box-album-charts .music-controllers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.box-album-charts .music-describes .music-img {
+    display: flex;
+    margin: auto;
+    width: 42px;
+    height: 42px;
+    background-color: var(--corPrimary-4);
+    border-radius: 4px;
+}
+
+.box-album-charts .music-describes .music-number {
+    color: var(--titles);
+    font-size: 14px;
+}
+
+.box-album-charts .music-controllers .controllers-count {
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.box-album-charts .music-controllers .controllers-btn {
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.box-album-charts .music-controllers .controllers-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: var(--corPrimary-3);
+    border: 1px solid var(--corPrimary-4);
+}
+
+.box-album-charts .music-controllers .controllers-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
